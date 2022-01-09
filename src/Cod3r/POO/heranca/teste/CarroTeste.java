@@ -1,4 +1,8 @@
-package Cod3r.POO.heranca.desafio;
+package Cod3r.POO.heranca.teste;
+
+import Cod3r.POO.heranca.desafio.Carro;
+import Cod3r.POO.heranca.desafio.Celta;
+import Cod3r.POO.heranca.desafio.Go;
 
 public class CarroTeste {
     public static void main(String[] args) {
@@ -13,7 +17,7 @@ public class CarroTeste {
         c1.acelerar();
         System.out.println(c1);
 
-        Celta c2 = new Celta();
+        Celta c2 = new Celta(400);
 
         c2.acelerar();
         c2.frear();
