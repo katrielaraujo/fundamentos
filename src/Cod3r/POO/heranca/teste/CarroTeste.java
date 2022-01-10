@@ -18,6 +18,8 @@ public class CarroTeste {
         System.out.println(c1);
 
         Celta c2 = new Celta(400);
+        //c2.ligarTurbo();
+        c2.ligarAr();
 
         c2.acelerar();
         c2.frear();
