@@ -1,0 +1,13 @@
+t -> significa qualquer coisa
+nada -> T = supplier
+T -> nada = consumer
+t -> t = unaryOperator
+t,t -> t binaryOperator
+s -> function
+t -> boolean = predicate
+
+data -> number => number -> prod => prod -> prod => bool
+
+Double a = 3;
+int -> Double
+double -> Double
